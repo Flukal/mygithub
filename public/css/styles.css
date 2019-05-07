@@ -1,0 +1,51 @@
+body {
+    width: 100%;;
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+h3 {
+    text-align: center;
+}
+
+.searchForm input {
+    margin-left: .5em;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    height: 14em;
+    width: 14em;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: .5em;
+}
+
+.userInfo a {
+    font-size: 1em;
+}
+
+.followers {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: .2em auto;
+}
